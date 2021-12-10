@@ -115,10 +115,6 @@ namespace Zadanie13
             public MultiBuilding(string adres, double dlinna, double shirina, double vysota, int etazh = 1)
                 : base(adres, dlinna, shirina, vysota)
             {
-                //base.Adres = adres;
-                //base.Dlinna = dlinna;
-                //base.Shirina = shirina;
-                //base.Vysota = vysota;
                 Etazh = etazh;
             }
             public new void Print()
